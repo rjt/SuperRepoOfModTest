@@ -1,10 +1,10 @@
-# SuperRepoOfModTest
-Parent repo of a submodule
-##Getting Started
-###Clone the repository
- >1024  20250409-162819 `git clone git@github.com:rjt/SuperRepoOfModTest.git`
- >1026  20250409-162829 `cd SuperRepoOfModTest/`
- >1028  20250409-162845 `ls -latr .git/ `
+# SuperRepoOfModTest  
+Parent repo of a submodule  
+##Getting Started  
+###Clone the repository  
+ >1024  20250409-162819 `git clone git@github.com:rjt/SuperRepoOfModTest.git`  
+ >1026  20250409-162829 `cd SuperRepoOfModTest/`  
+ >1028  20250409-162845 `ls -latr .git/ `  
  >1029  20250409-163024 `git submodule add git@github.com:rjt/SubModOfSuperRepo.git SubModule`
  1030  20250409-163027 `ls -latr`
  1031  20250409-163032 `cat .gitmodules `
