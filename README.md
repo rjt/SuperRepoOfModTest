@@ -1,7 +1,7 @@
 # SuperRepoOfModTest     
 Parent repo of a submodule     
-##Getting Started     
-###Clone the repository     
+## Getting Started     
+### Clone the repository     
  1024  20250409-162819 `git clone git@github.com:rjt/SuperRepoOfModTest.git`     
  1026  20250409-162829 `cd SuperRepoOfModTest/`     
  1028  20250409-162845 `ls -latr .git/ `     
@@ -19,11 +19,12 @@ Parent repo of a submodule
  1041  20250409-164017 `cat .git/config    `   
  1045  20250409-164306 history | tail -n 22 > README.md    
 
-###cat .gitmodule  
-[submodule "SubModule"]  
-	path = SubModule   
-	url = git@github.com:rjt/SubModOfSuperRepo.git  
+### cat .gitmodule  
+  [submodule "SubModule"]  
+  	path = SubModule   
+  	url = git@github.com:rjt/SubModOfSuperRepo.git  
    
 ### stream editing practice   
-sed -ibak -E -e 's|( git .*$)| `\1`   |' -e 's|` git|`git|' ./README.md   
-sed -ibak -E -e 's|( cat .*$)| `\1`   |' -e 's|` cat|`cat|' ./README.md   
+  sed -ibak -E -e 's|( git .*$)| `\1`   |' -e 's|` git|`git|' ./README.md   
+  sed -ibak -E -e 's|( cat .*$)| `\1`   |' -e 's|` cat|`cat|' ./README.md   
+  sed -i.bak -E -e 's|(#)([A-Za-z])|\1 \2|' README.md 
