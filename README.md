@@ -23,4 +23,7 @@ Parent repo of a submodule
 [submodule "SubModule"]  
 	path = SubModule   
 	url = git@github.com:rjt/SubModOfSuperRepo.git  
-
+   
+### stream editing practice   
+sed -ibak -E -e 's|( git .*$)| `\1`   |' -e 's|` git|`git|' ./README.md   
+sed -ibak -E -e 's|( cat .*$)| `\1`   |' -e 's|` cat|`cat|' ./README.md   
