@@ -25,6 +25,8 @@ Parent repo of a submodule
   	url = git@github.com:rjt/SubModOfSuperRepo.git  
    
 ### stream editing practice   
+  ```
   sed -ibak -E -e 's|( git .*$)| `\1`   |' -e 's|` git|`git|' ./README.md   
   sed -ibak -E -e 's|( cat .*$)| `\1`   |' -e 's|` cat|`cat|' ./README.md   
-  sed -i.bak -E -e 's|(#)([A-Za-z])|\1 \2|' README.md 
+  sed -i.bak -E -e 's|(#)([A-Za-z])|\1 \2|' README.md  
+  ```
